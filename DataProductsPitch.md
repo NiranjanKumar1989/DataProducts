@@ -48,5 +48,11 @@ Features of the Application
 Sample Plots
 ========================================================
 
+
+```r
+library(datasets); par(mfcol = c(1, 2))
+boxplot(mpg~cyl,mtcars);plot(mpg~cyl,mtcars)
+```
+
 ![plot of chunk samplePlots](DataProductsPitch-figure/samplePlots-1.png) 
 
